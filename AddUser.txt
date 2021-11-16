@@ -15,8 +15,6 @@
 ''*****************************************
 
 ''SCRIPT
-''Invalid input - invalid email
-AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmithsample.com"
 
 ''Invalid input - missing Username
 AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
@@ -26,3 +24,5 @@ AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
 ''Invalid input - user already exists
 AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
