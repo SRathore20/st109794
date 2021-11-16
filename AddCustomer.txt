@@ -1,0 +1,37 @@
+'*****************************************************************************
+
+'' Simran Automated Testing
+'' Copyright (c) 2019 ABC
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: addcustomer
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials						Name/Company
+'' --------		 				-----------------------------------------
+'' rw 							customer
+
+'' REVISION HISTORY:
+
+'' Date/Initials	 	Comments
+'' ---------					-------------------------------
+
+'' 02/20/2019  rw	Created for LoanApp 2.8
+
+
+
+
+
+''*****************************************
+''SCRIPT
+Addcustomer "Simran", "Rathore","Bird Road", "Richmond", "Va","V6x1n7"
+Addcustomer "Simran", "","Bird Road", "Richmond", "Va","V6x1n7"
+Addcustomer "", "Rathore","Bird Road", "Richmond", "Va","V6x1n7"
+
+
+
+
